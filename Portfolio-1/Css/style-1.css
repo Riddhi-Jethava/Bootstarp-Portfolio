@@ -1,0 +1,230 @@
+aside{
+    width: 350px;
+    height: 100vh;
+}
+.main{
+    height: 100vh;
+    transition: 2s;
+}
+.badge img{
+    border-radius: 50%;
+    width: 150px;
+}
+.intro{
+    width: 75%;
+    margin-left: 350px;
+}
+.intro img{
+    right: 50px;
+}
+.intro .design{
+    top: 35%;
+}
+.cv{
+    top: 60%;
+    letter-spacing: 2px;
+    transition: 2s;
+}
+.cv:hover{
+    background-color: rgb(16, 16, 76);
+    color: white;
+    padding: 2px;
+}
+.about{
+    width: 60%;
+    height: auto;
+    margin-left: 470px;
+}
+.parent .col{
+    width: 200px;
+    border-bottom: 5px solid red;
+}
+.parent .col:hover{
+    background-color: rgb(16, 16, 44);
+    color: white;
+}
+.hire{
+    width: 97%;
+    background-color: rgb(248, 183, 63);
+    height: 180px;
+}
+.ques{
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.quest{
+    letter-spacing: 2px;
+}
+.sect{
+    height: 650px;
+}
+.sect .col{
+    width: 250px;
+    height: 280px;
+    transition: 2s;
+}
+.sect .col:hover{
+    transform: translateY(-20px);
+}
+.counter{
+    height: 250px;
+    background-image: url(../Image/business.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.counter img{
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.count{
+    /* width: 22%; */
+    height: 180px;
+}
+.skill{
+    height: 500px;
+}
+.text{
+    letter-spacing: 2px;
+}
+.education{
+    height: 600px;
+}
+.exp{
+    height: 1000px;
+}
+.recent{
+    height: 100vh;
+}
+.work-e{
+    width: 45%;
+}
+.buton{
+    height: 40px;
+    margin-left: 12%;
+}
+.contact{
+    height: 600px;
+}
+.iconss{
+    border: 1px solid black;
+    padding: 50px;
+}
+.contact button:hover{
+    background-color: darkslategrey;
+}
+#menu{
+    display: none;
+}
+.ad{
+    margin-left:200px;
+}
+.hire .hiree:hover{
+    background-color: darkgreen;
+}
+.blog .col{
+    overflow: hidden;
+    transition: 2s;
+}
+.blog .col:hover{
+    transform: translateX(20px);
+}
+.blog .col img{
+    transition: 2s;
+    overflow: hidden;
+}
+.blog .col img:hover{
+    transform: scale(1.1);
+}
+
+
+@media(max-width:576px)
+{
+    aside{
+        background-color: lightcoral;
+        z-index: 1;
+        margin-left: -400px;
+
+    }
+    .nav-item a{
+        color: white;
+    }
+    #menu{
+        display: block;
+        color: black;
+        font-size: 30px;
+    }
+    .add{
+        margin-left: 350px;
+    }
+    .intro img{
+        z-index: -1;
+        width: 80%;
+        position: relative;
+    }
+    .intro .name{
+        position: absolute;
+        left: 0;
+        top: 50%;
+    }
+    .intro .cv{
+        margin-top: 60%;
+        color: white;
+        background-color: lightcoral;
+    }
+    .about{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .about .parent{
+        flex-wrap: wrap;
+    }
+    .about .col{
+        width: 50%;
+        margin-top: 8px;
+        margin-left: 2px;
+    }
+    .sect{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .sect .col{
+        width: 40%;
+    }
+    .counter{
+        height: auto;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .counter .col{
+        width: 40%;
+    }
+    .skill{
+        height: auto;
+    }
+    .skill .col{
+        width: 80%;
+    }    
+    .blog{
+        height: auto;
+        
+    }
+    .blog .b-1{
+        width: 80%;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    .blog .b-2{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 5%;
+    }
+    .blog .b-3{
+        width: 80%;
+        margin-left: 14%;
+        margin-top: 5%;
+    }
+}

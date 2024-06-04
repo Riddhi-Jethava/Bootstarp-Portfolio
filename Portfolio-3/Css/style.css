@@ -1,0 +1,178 @@
+.head .col{
+    height: 100vh;
+}
+.intro{
+    left: 47%;
+    top: 40%;
+}
+.name{
+    /* font-size: 40px; */
+    top: 45%;
+    left: 40%;
+}
+.head h5{
+    top: 53%;
+    left: 40%;
+    font-size: 30px;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+
+.hire{
+    top: 60%;
+    left: 47%;
+}
+.date{
+    width: 70%;
+}
+.icon i, .col{
+    font-size: 30px;
+}
+.jquery{
+    width: 15%;
+    margin-left: -10%;
+    position: absolute;
+    top: 50;
+    left: 650px;
+}
+.css{
+    width: 55%;
+}
+.cs{
+    top: 343%;
+    left: 38%;
+}
+.ht{
+    top: 343%;
+    left: 60.5%;
+}
+#skills{
+    position: relative;
+}
+.js{
+    top: -45%;
+    left: 84%;
+}
+.lan .col{
+    width: 30%;
+}
+.project{
+    filter: grayscale(1.1);
+}
+.project:hover{
+    filter: grayscale(0);
+}
+.main{
+    height: 850px;
+    justify-content: space-evenly;
+}
+.serv{
+    width: 30%;
+    border-radius: 3px;
+    box-shadow: 2px 2px 15px 1px lightgray;
+    height: 300px;
+    margin-bottom: 20px;
+}
+.serv:hover{
+    background-color: rgb(26, 26, 123);
+    color: white;
+}
+.blog{
+    overflow: hidden;
+    transition: 1s;
+}
+.blog:hover{
+    transform: translateY(-10px);
+}
+.hire{
+    background-image:linear-gradient(rgb(0,0,0,0.2),rgb(90, 61, 159)), url(../images/schrecksee-2534484_1280.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hire button{
+    transition: 2s;
+}
+.hire button:hover{
+    transform: translateY(10px);
+}
+.free{
+    border-radius: 30px;
+}
+.add{
+    border-radius: 50%;
+    padding: 15px;
+}
+.con:hover{
+    background-color: lightgray;
+    color: white;
+}
+.cont{
+    width: 60%;
+    height: 500px;
+}
+.bio{
+    height: 500px;
+}
+.hune{
+    height: 500px;
+}
+
+/* hover  */
+.lang:hover{
+    box-shadow: 2px 2px 15px 2px lightgray;
+}
+.countr .col:hover{
+    background-color: darkblue;
+}
+
+/* 
+@media(max-width:576px)
+{
+    .name{
+        left: 30%;
+    }
+    .lang{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .sub{
+        margin-left: -50px;
+    }
+    .cs{
+        margin-top: 186%;
+        font-size: 15px;
+        margin-left: 35px;
+    }
+    .css{
+        margin-left: 38px;
+    }
+    .lang{
+        font-size: 20px;
+        padding: 15px;
+    }
+    .sub{
+        margin-left: -50px;
+    }
+    .ht{
+        margin-top: 186%;
+        font-size: 15px;
+        /* margin-left: 35px; */
+    }
+    .htm{
+        margin-left: 15%;
+    }
+    .js{
+        margin-top: 186%;
+        font-size: 15px;
+    }
+    .jquery{
+        margin-left: 35%;
+    }
+    .serv{
+        height: auto;
+    }
+    .our{
+        flex-direction: column;
+    }
+
+} */
