@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 200px;    
+}
+.head{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: #F8F8F8;
+    justify-content: space-evenly;
+}
+.logo{
+    flex-basis: 45%;
+}
+.logo img{
+    width: 32%;
+}
+
+.logo2{
+    flex-basis: 60%;
+    height: 100px;
+    display: flex;
+}
+.lg2{
+    width: 30%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.lgt{
+    
+    /* border: 1px solid black; */
+    /* height: 100px;   */
+}
+.cont i{
+    font-size: 38px;
+    color: #7ca1a5;
+    margin-right: -18px;
+}
+.lgt p{
+    font-weight: bold;
+    color: rgb(146, 144, 144);
+}
+.main{
+    background-color: transparent;
+    height: 100px;
+}
+.nav-item{
+    margin-top: 15px;
+}
+.nav-item a{
+    color: black;
+    font-size: 18px;
+    margin-right: 18px;
+}
+.serch{
+    margin-top: 15px;
+}
+.buton{
+    background-color: #558b92;
+    border: none;
+    padding: 12px 12px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.slider1{
+    height: 800px;
+}
+.slider1a{
+    height: 800px;
+}
+.carousel-item img{
+    height: 100%;
+}
+.imgs{
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    top: 0;
+    padding-top: 15%;
+    padding-left: 10%;
+    background-color: rgba(7, 6, 6, 0.247);
+}
+.intr h1{
+    font-size: 60px;
+    color: white;
+}
+.intr p{
+    width: 63%;
+    font-size: 18px;
+    color: white;
+}
+.intr button{
+    background-color: #6c989e;
+    padding: 15px 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.intro{
+    height: 950px;
+    display: flex;
+    margin-top: 100px;
+}
+.app{
+    height: inherit;
+    /* border: 1px solid black; */
+    flex-basis: 50%;
+    background-color: #62abb6;
+    color: white;
+}
+.app form{
+    width: 60%;
+    float: right;
+    margin-top: 120px;
+    margin-right: 10%;
+}
+.app form input{
+    width: 90%;
+    height: 30px;
+    padding: 4px;
+    /* background-color: transparent; */
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.app form select{
+    width: 88%;
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.app select option{
+    color: black;
+    box-shadow: 2px 2px 15px 2px lightgray;
+}
+.app form button{
+    width: 95%;
+    padding: 12px 0px;
+    border-radius: 5px;
+    border: none;
+    color: #2c4043;
+    font-weight: 600;
+}
+.offer{
+    height: inherit;
+    flex-basis: 50%;
+    padding: 90px 60px;
+    background-color: #F8F8F8;
+}
+.sbf{
+    width: 80%;
+    height: 180px;
+    background-color: white;
+}
+.suboffer1:hover{
+    background-color: #457b81;
+    /* color: white; */
+}
+.sba{
+    float: left;
+    width: 20%;
+    height: inherit;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.sba{
+    font-size: 55px;
+    color: #00BCD4;
+    line-height: 150px;
+}
+.sb{
+    float: left;
+    width: 78%;
+    margin-left: 2%;
+    height: inherit;
+    /* border: 1px solid black; */
+}
+.sb h5{
+    color: black;
+}
+.sb p{
+    margin-top: 15px;
+    color: gray;
+    font-weight: 400;
+}
+.sba:hover .suboffer1a{
+    color: white;
+}
+.sba:hover .suboffer1b h5{
+    color: white;
+}
+.sba:hover .suboffer1b p{
+    color: white;
+}
+.services{
+    height: auto;
+    text-align: center;
+    background-color: #F8F8F8;
+    padding-bottom: 50px;
+}
+.services h1{
+    font-size: 40px;
+    color: rgb(47, 47, 77);
+}
+.serv{
+    width: 70%;
+    margin-left: 15%;
+    height: 780px;
+}
+.service1{
+    height: 320px;
+    /* border: 1px solid black; */
+}
+.serv1{
+    width: 95%;
+    background-color: white;
+    height: inherit;
+    margin-left: 1.5%;
+    text-align: center;
+    padding: 40px 5px;
+}
+.serv1:hover{
+    background-color: #3f7d85;
+    color: white;
+}
+.serv1:hover i{
+    background-color: white;
+    color: #00BCD4;
+}
+.serv1:hover h5{
+    color: white;
+}
+.serv1 i{
+    font-size: 45px;
+    color: white;
+    background-color: #00BCD4;
+    padding: 22px;
+    border-radius: 50%;
+}
+.serv1 p{
+    font-size: 15px;
+    font-weight: 500;
+    color: lightgray;
+}
+
+.clinic{
+    height: 850px;
+    display: flex;
+    background-color: #F8F8F8;
+}
+.clinicpic{
+    flex-basis: 50%;
+    height: inherit;
+}
+.clinicpic img{
+    height: 80%;
+    width: 80%;
+    float: right;
+}
+.report{
+    flex-basis: 50%;
+    height: inherit;
+}
+.result:hover{
+    background-color: skyblue;
+    color: darkbluew;
+}
+.result{
+    width: 50%;
+    height: 180px;
+    background-color: #efeaea;
+    border-radius: 15px;
+    margin-top: 25px;
+    margin-left: 10%;
+    text-align: center;
+}
+.result i{
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: darkslategray;
+}
+.result h2{
+    font-size: 30px;
+}
+.result h1{
+    font-size: 20px;
+    color: rgb(17, 17, 90);
+}
+.team{
+    height: 650px;
+    text-align: center;
+}
+
+.teams{
+    height: 400px;
+    flex-basis: 25%;
+    position: relative;
+}
+.teams img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(1.1);
+}
+.re{
+    height: auto;
+}
+.teams .txt{
+    width: 100%;
+    height: auto;
+    background-color: rgba(240, 248, 255, 0.301);
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 15px 0px;
+    display: none;
+    transition: 1s;
+}
+.teams:hover .txt{
+    display: block;
+}
+
+
+
+
+
+
+
+footer{
+    height: 450px;
+    background-color: #4a868e79;
+    background-image: linear-gradient(rgba(53, 109, 116, 0.938),rgba(134, 223, 235, 0.699)),url(../image/slider1a.webp);
+    background-position: center;
+}
+.foot1{
+    flex-basis: 25%;
+    /* border: 1px solid white; */
+    height: 350px;
+    color: white;
+}
+.foot2 a{
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+.foot1 i{
+    font-size: 20px;
+    background-color: #467980;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 12px 15px;
+}
+.foot2{
+    flex-basis: 20%;
+    height: 350px;
+    /* border: 1px solid white; */
+    color: white;
+}
+
+/* media  */
+
+@media(max-width:576px)
+{
+    header{
+        height: auto;
+    }
+    .head{
+        align-items: start;
+        flex-direction: column;
+        height: auto;
+        position: relative;
+    }
+    .logo{
+        width: 80%;
+        margin-left: -26%;
+    }
+    .lg2{
+        width: auto;
+        height: 70px;
+    }
+    .cont i{
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .lgt{
+        font-size: 15px;
+    }
+    .main{
+        height: auto;
+        background-color: #b8bcbd;
+    }
+    .navbar{
+        height: auto;
+    }
+    #menu{
+        position: absolute;
+        top: 10px;
+        right: 0;
+    }
+    .buton{
+        display: none;
+    }
+    .slider1{
+        height: auto;
+        margin-top: 30px;
+        /* display: none; */
+    }
+    .slider1 h1{
+        font-size: 30px;
+    }
+    .intr button{
+        margin-top: 15px;
+    }
+    .intro{
+        height: auto;
+        flex-direction: column;
+    }
+    .app{
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+    .sbf{
+        width: 100%;
+    }
+    .contact{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    textarea{
+        width: 90%;
+    }
+    .services{
+        height: auto;
+    }
+    .surv{
+        height: auto;
+    }
+    .serv1{
+        height: auto;
+    }
+    .clinic{
+        flex-direction: column;
+        height: auto;
+    }
+    .clinicpic{
+        height: 400px;
+    }
+    .clinicpic img{
+        height: 100%;
+        width: 100%;
+    }
+    .report{
+        padding-bottom: 50px;
+    }
+    .result{
+        width: 80%;
+        height: auto;
+    } 
+    .team{
+        height: auto;
+    }
+    .re{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .teams{
+        flex-basis: 48%;
+        height: 250px;
+    }
+    footer{
+        height: auto;
+        margin-top: 10%;
+    }
+    .footer{
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .foot1{
+        flex-basis: 40%;
+    }
+    .foot2{
+        margin-top: 20px;
+        flex-basis: 50%;
+    }  
+}
